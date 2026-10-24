@@ -6,3 +6,7 @@ const prix_stylo=500
 const quantite_stylos=3
 const prix_total_cahiers= prix_cahier * quantite_cahiers
 const prix_total_stylos= prix_stylo * quantite_stylos 
+//Calcul du montant des cahiers et stylos
+console.log("====== CAISSE======")
+console.log("Cahiers:", prix_total_cahiers, "FCFA")
+console.log("Stylos:", prix_total_stylos, "FCFA")
