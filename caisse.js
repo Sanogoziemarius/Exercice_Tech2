@@ -9,3 +9,12 @@ const prix_total_stylos=prix_stylos*quantite_stylos
 //calcul du montant des cahiers et des stylos
 console.log("Cahiers:",prix_total_cahiers,"FCFA")
 console.log("Stylos:",prix_total_stylos, "FCFA")
+//calcul du montant total des achats
+console.log("total:", prix_total_cahiers+prix_total_stylos,"FCFA")
+//mise en place de la condition
+const total=prix_total_cahiers + prix_total_stylos
+if (total <= budget_client){ 
+    console.log("Budget suffisant")
+}else{
+    console.log("Budget insuffisant")
+}
