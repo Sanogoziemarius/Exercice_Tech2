@@ -10,3 +10,11 @@ const prix_total_stylos= prix_stylo * quantite_stylos
 console.log("====== CAISSE======")
 console.log("Cahiers:", prix_total_cahiers, "FCFA")
 console.log("Stylos:", prix_total_stylos, "FCFA")
+//Calcul du montant total des acchats et utilisation de la condition
+console.log("Total:", prix_total_cahiers + prix_total_stylos, "FCFA")
+const total=prix_total_cahiers + prix_total_stylos
+if (total<= budget_client) {
+            console.log("suffisant")
+    }else{
+            console.log("insufisanr")}
+    
