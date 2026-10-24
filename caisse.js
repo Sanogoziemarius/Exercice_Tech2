@@ -17,4 +17,8 @@ if (total<= budget_client) {
             console.log("suffisant")
     }else{
             console.log("insufisant")}
-    
+            console.log(" ")
+//mise en place de la boucle pour afficher les numéros
+ for (let i=1; i<=5;i++){
+        console.log("Achat numéro",+i)
+ }
